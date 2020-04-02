@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.31-SNAPSHOT">
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Workspace.java">
+<error line="309" column="23" severity="warning" message="Expected @throws tag for &apos;IllegalStateException&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="917" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="975" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="975" column="40" severity="warning" message="Expected @param tag for &apos;pixelX&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="975" column="52" severity="warning" message="Expected @param tag for &apos;pixelY&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="976" column="17" severity="warning" message="Expected @param tag for &apos;spanX&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="976" column="28" severity="warning" message="Expected @param tag for &apos;spanY&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="976" column="40" severity="warning" message="Expected @param tag for &apos;ignoreView&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="976" column="63" severity="warning" message="Expected @param tag for &apos;layout&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="976" column="77" severity="warning" message="Expected @param tag for &apos;recycle&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1047" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1047" column="48" severity="warning" message="Expected @param tag for &apos;screen&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1062" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1130" column="43" severity="warning" message="Expected @param tag for &apos;allowLongPress&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherProvider.java">
+<error line="462" column="52" severity="warning" message="Expected @param tag for &apos;db&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="535" column="50" severity="warning" message="Expected @param tag for &apos;bindSources&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="535" column="88" severity="warning" message="Expected @param tag for &apos;bindTargets&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="554" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="725" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="725" column="45" severity="warning" message="Expected @param tag for &apos;column&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="725" column="59" severity="warning" message="Expected @param tag for &apos;values&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DragController.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/WallpaperChooser.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherModel.java">
+<error line="109" column="51" severity="warning" message="Expected @param tag for &apos;isLaunching&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="109" column="73" severity="warning" message="Expected @param tag for &apos;launcher&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="110" column="21" severity="warning" message="Expected @param tag for &apos;localeChanged&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="612" column="32" severity="warning" message="Expected @param tag for &apos;isLaunching&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="612" column="54" severity="warning" message="Expected @param tag for &apos;launcher&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="612" column="72" severity="warning" message="Expected @param tag for &apos;localeChanged&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="613" column="21" severity="warning" message="Expected @param tag for &apos;loadApplications&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1039" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1039" column="75" severity="warning" message="Expected @param tag for &apos;folders&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1039" column="89" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1054" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1054" column="75" severity="warning" message="Expected @param tag for &apos;folders&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1054" column="89" severity="warning" message="Expected @param tag for &apos;id&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1083" column="54" severity="warning" message="Expected @param tag for &apos;desktopItems&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1102" column="64" severity="warning" message="Expected @param tag for &apos;applications&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1114" column="76" severity="warning" message="Expected @param tag for &apos;appWidgets&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1138" column="43" severity="warning" message="Expected @param tag for &apos;occupied&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1138" column="57" severity="warning" message="Expected @param tag for &apos;countX&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1138" column="69" severity="warning" message="Expected @param tag for &apos;countY&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1138" column="81" severity="warning" message="Expected @param tag for &apos;screen&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1160" column="47" severity="warning" message="Expected @param tag for &apos;occupied&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1160" column="61" severity="warning" message="Expected @param tag for &apos;screen&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1161" column="22" severity="warning" message="Expected @param tag for &apos;item&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1199" column="52" severity="warning" message="Expected @param tag for &apos;info&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1206" column="55" severity="warning" message="Expected @param tag for &apos;info&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1213" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1213" column="70" severity="warning" message="Expected @param tag for &apos;manager&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1213" column="86" severity="warning" message="Expected @param tag for &apos;intent&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1214" column="63" severity="warning" message="Expected @param tag for &apos;context&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1237" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1237" column="63" severity="warning" message="Expected @param tag for &apos;c&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1237" column="74" severity="warning" message="Expected @param tag for &apos;context&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1238" column="17" severity="warning" message="Expected @param tag for &apos;iconTypeIndex&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1238" column="36" severity="warning" message="Expected @param tag for &apos;iconPackageIndex&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1238" column="58" severity="warning" message="Expected @param tag for &apos;iconResourceIndex&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1238" column="81" severity="warning" message="Expected @param tag for &apos;iconIndex&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1285" column="46" severity="warning" message="Expected @param tag for &apos;folder&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1285" column="63" severity="warning" message="Expected @param tag for &apos;info&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1302" column="49" severity="warning" message="Expected @param tag for &apos;context&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1302" column="67" severity="warning" message="Expected @param tag for &apos;item&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1302" column="78" severity="warning" message="Expected @param tag for &apos;container&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1303" column="17" severity="warning" message="Expected @param tag for &apos;screen&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1303" column="29" severity="warning" message="Expected @param tag for &apos;cellX&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1303" column="40" severity="warning" message="Expected @param tag for &apos;cellY&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1316" column="44" severity="warning" message="Expected @param tag for &apos;context&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1316" column="62" severity="warning" message="Expected @param tag for &apos;item&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1316" column="73" severity="warning" message="Expected @param tag for &apos;container&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1316" column="88" severity="warning" message="Expected @param tag for &apos;screen&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1317" column="17" severity="warning" message="Expected @param tag for &apos;cellX&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1317" column="28" severity="warning" message="Expected @param tag for &apos;cellY&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1338" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1338" column="43" severity="warning" message="Expected @param tag for &apos;context&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1338" column="59" severity="warning" message="Expected @param tag for &apos;title&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1338" column="73" severity="warning" message="Expected @param tag for &apos;intent&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1399" column="43" severity="warning" message="Expected @param tag for &apos;context&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1399" column="61" severity="warning" message="Expected @param tag for &apos;item&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1399" column="72" severity="warning" message="Expected @param tag for &apos;container&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1400" column="17" severity="warning" message="Expected @param tag for &apos;screen&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1400" column="29" severity="warning" message="Expected @param tag for &apos;cellX&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1400" column="40" severity="warning" message="Expected @param tag for &apos;cellY&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1400" column="55" severity="warning" message="Expected @param tag for &apos;notify&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1422" column="46" severity="warning" message="Expected @param tag for &apos;context&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1422" column="64" severity="warning" message="Expected @param tag for &apos;item&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1446" column="62" severity="warning" message="Expected @param tag for &apos;context&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1446" column="86" severity="warning" message="Expected @param tag for &apos;info&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherSettings.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DragScroller.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Utilities.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/CellLayout.java">
+<error line="354" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="354" column="57" severity="warning" message="Expected @param tag for &apos;occupied&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="355" column="23" severity="warning" message="Expected @param tag for &apos;xCount&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="355" column="41" severity="warning" message="Expected @param tag for &apos;yCount&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="646" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherAppWidgetHostView.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/UninstallShortcutReceiver.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/FolderIcon.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LiveFolder.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/UserFolder.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/AddAdapter.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherAppWidgetInfo.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DragSource.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/InstallShortcutReceiver.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/FolderInfo.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Folder.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/FastBitmapDrawable.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/BubbleTextView.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/HandleView.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/UserFolderInfo.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LiveFolderAdapter.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Launcher.java">
+<error line="610" column="41" severity="warning" message="Expected @param tag for &apos;context&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="611" column="21" severity="warning" message="Expected @param tag for &apos;insertAtFirst&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="682" column="21" severity="warning" message="Expected @param tag for &apos;insertAtFirst&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="995" column="34" severity="warning" message="Expected @param tag for &apos;initialQuery&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="995" column="56" severity="warning" message="Expected @param tag for &apos;selectInitialQuery&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="996" column="20" severity="warning" message="Expected @param tag for &apos;appSearchData&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="996" column="43" severity="warning" message="Expected @param tag for &apos;globalSearch&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1456" column="55" severity="warning" message="Expected @param tag for &apos;shortcuts&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1457" column="46" severity="warning" message="Expected @param tag for &apos;appWidgets&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1979" column="45" severity="warning" message="Expected @param tag for &apos;dialog&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="1979" column="57" severity="warning" message="Expected @param tag for &apos;which&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/AllAppsGridView.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/ApplicationInfo.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DragLayer.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/ItemInfo.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Widget.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/ApplicationsAdapter.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LiveFolderIcon.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherApplication.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/Search.java">
+<error line="146" column="30" severity="warning" message="Expected @param tag for &apos;v&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="169" column="33" severity="warning" message="Expected @param tag for &apos;query&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="177" column="36" severity="warning" message="Expected @param tag for &apos;initialQuery&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="177" column="58" severity="warning" message="Expected @param tag for &apos;selectInitialQuery&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="178" column="20" severity="warning" message="Expected @param tag for &apos;appSearchData&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="178" column="43" severity="warning" message="Expected @param tag for &apos;globalSearch&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="287" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="287" column="37" severity="warning" message="Expected @param tag for &apos;v&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="341" column="38" severity="warning" message="Expected @param tag for &apos;launcher&apos;." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="375" severity="warning" message="Expected @return tag." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LiveFolderInfo.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DeleteZone.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/LauncherAppWidgetHost.java">
+</file>
+<file name="/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/android-launcher/src/com/android/launcher/DropTarget.java">
+</file>
+</checkstyle>
