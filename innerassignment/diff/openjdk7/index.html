@@ -1,0 +1,2335 @@
+<html>
+	<head>
+		<title>checkstyle xml difference report</title>
+		<style type="text/css" media="all">@import url("./css/maven-base.css");@import url("./css/maven-theme.css"); );</style>
+		<link rel="stylesheet" href="./css/site.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<http-equiv http-equiv="Content-Language" content="en"></http-equiv>
+	</head>
+	<body class="composite">
+		<div id="contentBox">
+			<div class="section">
+				<h2 a="Checkstyle XML difference report">Checkstyle XML difference report</h2>
+				This is symmetric difference generated from two checkstyle-result.xml reports. <br/>
+				All matching records from each XML file are deleted, then remaining records are merged into single report. <br>
+		        <a href="https://github.com/checkstyle/contribution/tree/master/patch-diff-report-tool">Utility that generated this report.</a>
+			</div>
+
+			
+				<h2 a="Checkstyle configuration report">Checkstyle configuration report</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Module Name</th>
+								<th>Base properties</th>
+								<th>Patch properties</th>
+							</tr>
+							
+								
+									<tr>
+										<td class="c">Checker</td>
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												severity
+												
+													<li>warning</li>
+												
+												<br/>
+											
+												charset
+												
+													<li>UTF-8</li>
+												
+												<br/>
+											
+												haltOnException
+												
+													<li>false</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">BeforeExecutionExclusionFileFilter</td>
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												fileNamePattern
+												
+													<li>module\-info\.java$</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">TreeWalker</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+										
+									<tr>
+										<td class="c">ThrowsCount</td>
+										
+										<td class="c">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												max
+												
+													<li>20000000</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">InnerAssignment</td>
+										
+										<td class="c">
+											
+										</td>
+										
+										
+										<td class="c">
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionXpathSingleFilter</td>
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												message
+												
+													<li>Javadoc comment at column \d+ has parse error</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+									
+										
+									<tr>
+										<td class="c">SuppressionSingleFilter</td>
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+										
+										<td class="c">
+											
+												checks
+												
+													<li>Checker</li>
+												
+												<br/>
+											
+												message
+												
+													<li>Exception occurred while parsing</li>
+												
+												<br/>
+											
+										</td>
+										
+									</tr>
+									
+								
+									
+								
+								
+					</table>	
+				</div>
+			
+
+			<div class="section">
+				<h2 a="Summary:">Summary:</h2>
+				<div class="section">
+					<table border="0" class="bodyTable">
+						<tr class="a">
+							<th>Report id</th>
+							<th>Files</th>
+							<th>Violations</th>
+							
+								<th>Severity-warning</th>
+							
+						</tr>
+						<tr class="b">
+							<td>base</td>
+							<td id="filesBase">13652</td>
+							<td id="totalBase">2835</td>
+							
+								<td id="warningSeverityNumBase">2835</td>
+							
+						</tr>
+						<tr class="a">
+							<td>patch</td>
+							<td id="filesPatch">13652</td>
+							<td id="totalPatch">2758 (77 removed)</td>
+							
+								<td id="warningSeverityStatisticsPatch">2758 (77 removed)</td>
+							
+						</tr>
+						<tr class="d">
+							<td/>
+							<td id="filesDiff">50 files with differences</td>
+							<td id="totalDiff">77 changes in violations</td>
+							
+								<td id="warningSeverityNumDiff">77 changes in violations</td>
+							
+						<tr>
+					</table>
+
+					
+						<br />
+						<table border="0" class="bodyTable">
+							<tr class="a">
+								<th>Report id</th>
+								
+									<th>com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck</th>
+								
+							</tr>
+							<tr class="b">
+								<td>base</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheckModuleNumBase">2835</td>
+								
+							</tr>
+							<tr class="a">
+								<td>patch</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheckModuleStatisticsPatch">2758 (77 removed)</td>
+								
+							</tr>
+							<tr class="d">
+								<td>changes in violations</td>
+								
+									<td id="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheckModuleNumDiff">77</td>
+								
+							<tr>
+						</table>
+					
+
+					<br />
+					Number of unique base messages reported below: <span id="uniqueMessagesBase">77</span><br />
+					Number of unique patch messages reported below: <span id="uniqueMessagesPatch">0</span><br />
+				</div>
+			</div>
+
+			<div class="section">
+				<h2 a="Violations:">Violations:</h2>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/make/tools/src/build/tools/hasher/Hasher.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A1" href = "#A1">#A1</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/make/tools/src/build/tools/hasher/Hasher.java.html#L121">121</a></td>
+								
+								
+									
+									<td class="keepWidth">29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/swing/plaf/gtk/GTKFileChooserUI.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A2" href = "#A2">#A2</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/swing/plaf/gtk/GTKFileChooserUI.java.html#L1134">1134</a></td>
+								
+								
+									
+									<td class="keepWidth">25</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/swing/plaf/windows/WindowsFileChooserUI.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A3" href = "#A3">#A3</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/swing/plaf/windows/WindowsFileChooserUI.java.html#L1097">1097</a></td>
+								
+								
+									
+									<td class="keepWidth">29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/Attribute.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A4" href = "#A4">#A4</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/Attribute.java.html#L1315">1315</a></td>
+								
+								
+									
+									<td class="keepWidth">43</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A5" href = "#A5">#A5</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/Attribute.java.html#L1429">1429</a></td>
+								
+								
+									
+									<td class="keepWidth">43</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/Histogram.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A6" href = "#A6">#A6</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/Histogram.java.html#L562">562</a></td>
+								
+								
+									
+									<td class="keepWidth">26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/PackerImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A7" href = "#A7">#A7</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/PackerImpl.java.html#L420">420</a></td>
+								
+								
+									
+									<td class="keepWidth">35</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/Utils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A8" href = "#A8">#A8</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/Utils.java.html#L245">245</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A9" href = "#A9">#A9</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/Utils.java.html#L247">247</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A10" href = "#A10">#A10</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/java/util/jar/pack/Utils.java.html#L260">260</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/org/apache/xml/internal/security/utils/RFC2253Parser.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A11" href = "#A11">#A11</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/org/apache/xml/internal/security/utils/RFC2253Parser.java.html#L97">97</a></td>
+								
+								
+									
+									<td class="keepWidth">29</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A12" href = "#A12">#A12</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/org/apache/xml/internal/security/utils/RFC2253Parser.java.html#L130">130</a></td>
+								
+								
+									
+									<td class="keepWidth">26</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A13" href = "#A13">#A13</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/org/apache/xml/internal/security/utils/RFC2253Parser.java.html#L208">208</a></td>
+								
+								
+									
+									<td class="keepWidth">20</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A14" href = "#A14">#A14</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/org/apache/xml/internal/security/utils/RFC2253Parser.java.html#L284">284</a></td>
+								
+								
+									
+									<td class="keepWidth">17</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A15" href = "#A15">#A15</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/org/apache/xml/internal/security/utils/RFC2253Parser.java.html#L326">326</a></td>
+								
+								
+									
+									<td class="keepWidth">17</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A16" href = "#A16">#A16</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/org/apache/xml/internal/security/utils/RFC2253Parser.java.html#L352">352</a></td>
+								
+								
+									
+									<td class="keepWidth">17</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A17" href = "#A17">#A17</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/org/apache/xml/internal/security/utils/RFC2253Parser.java.html#L388">388</a></td>
+								
+								
+									
+									<td class="keepWidth">26</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A18" href = "#A18">#A18</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/org/apache/xml/internal/security/utils/RFC2253Parser.java.html#L435">435</a></td>
+								
+								
+									
+									<td class="keepWidth">26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/tools/example/debug/bdi/Utils.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A19" href = "#A19">#A19</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/tools/example/debug/bdi/Utils.java.html#L91">91</a></td>
+								
+								
+									
+									<td class="keepWidth">21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/tools/example/debug/tty/Env.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A20" href = "#A20">#A20</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/com/sun/tools/example/debug/tty/Env.java.html#L219">219</a></td>
+								
+								
+									
+									<td class="keepWidth">21</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/awt/image/AreaAveragingScaleFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A21" href = "#A21">#A21</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/awt/image/AreaAveragingScaleFilter.java.html#L216">216</a></td>
+								
+								
+									
+									<td class="keepWidth">33</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/awt/image/ReplicateScaleFilter.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A22" href = "#A22">#A22</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/awt/image/ReplicateScaleFilter.java.html#L202">202</a></td>
+								
+								
+									
+									<td class="keepWidth">32</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A23" href = "#A23">#A23</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/awt/image/ReplicateScaleFilter.java.html#L205">205</a></td>
+								
+								
+									
+									<td class="keepWidth">32</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A24" href = "#A24">#A24</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/awt/image/ReplicateScaleFilter.java.html#L243">243</a></td>
+								
+								
+									
+									<td class="keepWidth">32</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A25" href = "#A25">#A25</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/awt/image/ReplicateScaleFilter.java.html#L246">246</a></td>
+								
+								
+									
+									<td class="keepWidth">32</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/lang/ThreadLocal.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A26" href = "#A26">#A26</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/lang/ThreadLocal.java.html#L494">494</a></td>
+								
+								
+									
+									<td class="keepWidth">21</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A27" href = "#A27">#A27</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/lang/ThreadLocal.java.html#L502">502</a></td>
+								
+								
+									
+									<td class="keepWidth">21</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A28" href = "#A28">#A28</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/lang/ThreadLocal.java.html#L564">564</a></td>
+								
+								
+									
+									<td class="keepWidth">21</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A29" href = "#A29">#A29</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/lang/ThreadLocal.java.html#L623">623</a></td>
+								
+								
+									
+									<td class="keepWidth">26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/math/BigInteger.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A30" href = "#A30">#A30</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/math/BigInteger.java.html#L2373">2373</a></td>
+								
+								
+									
+									<td class="keepWidth">30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/net/URL.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A31" href = "#A31">#A31</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/net/URL.java.html#L541">541</a></td>
+								
+								
+									
+									<td class="keepWidth">26</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/text/RuleBasedCollator.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A32" href = "#A32">#A32</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/text/RuleBasedCollator.java.html#L521">521</a></td>
+								
+								
+									
+									<td class="keepWidth">30</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A33" href = "#A33">#A33</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/text/RuleBasedCollator.java.html#L537">537</a></td>
+								
+								
+									
+									<td class="keepWidth">30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/DualPivotQuicksort.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A34" href = "#A34">#A34</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/DualPivotQuicksort.java.html#L161">161</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A35" href = "#A35">#A35</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/DualPivotQuicksort.java.html#L601">601</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A36" href = "#A36">#A36</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/DualPivotQuicksort.java.html#L1073">1073</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A37" href = "#A37">#A37</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/DualPivotQuicksort.java.html#L1545">1545</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A38" href = "#A38">#A38</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/DualPivotQuicksort.java.html#L2122">2122</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A39" href = "#A39">#A39</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/DualPivotQuicksort.java.html#L2649">2649</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/IdentityHashMap.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A40" href = "#A40">#A40</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/IdentityHashMap.java.html#L589">589</a></td>
+								
+								
+									
+									<td class="keepWidth">50</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A41" href = "#A41">#A41</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/IdentityHashMap.java.html#L786">786</a></td>
+								
+								
+									
+									<td class="keepWidth">54</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/WeakHashMap.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A42" href = "#A42">#A42</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/WeakHashMap.java.html#L296">296</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/ForkJoinTask.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A43" href = "#A43">#A43</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/ForkJoinTask.java.html#L550">550</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/ForkJoinWorkerThread.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A44" href = "#A44">#A44</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/ForkJoinWorkerThread.java.html#L550">550</a></td>
+								
+								
+									
+									<td class="keepWidth">28</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/LinkedBlockingQueue.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A45" href = "#A45">#A45</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/LinkedBlockingQueue.java.html#L697">697</a></td>
+								
+								
+									
+									<td class="keepWidth">42</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/LinkedTransferQueue.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A46" href = "#A46">#A46</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/LinkedTransferQueue.java.html#L971">971</a></td>
+								
+								
+									
+									<td class="keepWidth">51</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A47" href = "#A47">#A47</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/locks/AbstractQueuedLongSynchronizer.java.html#L1657">1657</a></td>
+								
+								
+									
+									<td class="keepWidth">29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/locks/AbstractQueuedSynchronizer.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A48" href = "#A48">#A48</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/java/util/concurrent/locks/AbstractQueuedSynchronizer.java.html#L1878">1878</a></td>
+								
+								
+									
+									<td class="keepWidth">29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/javax/swing/JTree.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A49" href = "#A49">#A49</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/javax/swing/JTree.java.html#L1998">1998</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/javax/swing/plaf/metal/MetalFileChooserUI.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A50" href = "#A50">#A50</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/javax/swing/plaf/metal/MetalFileChooserUI.java.html#L971">971</a></td>
+								
+								
+									
+									<td class="keepWidth">29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/javax/swing/tree/DefaultMutableTreeNode.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A51" href = "#A51">#A51</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/javax/swing/tree/DefaultMutableTreeNode.java.html#L442">442</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/invoke/util/VerifyAccess.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A52" href = "#A52">#A52</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/invoke/util/VerifyAccess.java.html#L202">202</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/management/counter/perf/PerfDataEntry.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A53" href = "#A53">#A53</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/management/counter/perf/PerfDataEntry.java.html#L121">121</a></td>
+								
+								
+									
+									<td class="keepWidth">19</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/misc/FloatingDecimal.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A54" href = "#A54">#A54</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/misc/FloatingDecimal.java.html#L2536">2536</a></td>
+								
+								
+									
+									<td class="keepWidth">45</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/misc/URLClassPath.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A55" href = "#A55">#A55</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/misc/URLClassPath.java.html#L171">171</a></td>
+								
+								
+									
+									<td class="keepWidth">33</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A56" href = "#A56">#A56</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/misc/URLClassPath.java.html#L194">194</a></td>
+								
+								
+									
+									<td class="keepWidth">33</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/rmi/transport/DGCClient.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A57" href = "#A57">#A57</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/rmi/transport/DGCClient.java.html#L617">617</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/swing/plaf/synth/SynthFileChooserUIImpl.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A58" href = "#A58">#A58</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/swing/plaf/synth/SynthFileChooserUIImpl.java.html#L805">805</a></td>
+								
+								
+									
+									<td class="keepWidth">29</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/tools/java/ClassDefinition.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A59" href = "#A59">#A59</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/tools/java/ClassDefinition.java.html#L369">369</a></td>
+								
+								
+									
+									<td class="keepWidth">27</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A60" href = "#A60">#A60</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/tools/java/ClassDefinition.java.html#L416">416</a></td>
+								
+								
+									
+									<td class="keepWidth">20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/tools/javac/SourceClass.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A61" href = "#A61">#A61</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/classes/sun/tools/javac/SourceClass.java.html#L1276">1276</a></td>
+								
+								
+									
+									<td class="keepWidth">47</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/demo/applets/MoleculeViewer/Matrix3D.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A62" href = "#A62">#A62</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/demo/applets/MoleculeViewer/Matrix3D.java.html#L223">223</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/demo/applets/MoleculeViewer/XYZApp.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A63" href = "#A63">#A63</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/demo/applets/MoleculeViewer/XYZApp.java.html#L253">253</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/demo/applets/WireFrame/Matrix3D.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A64" href = "#A64">#A64</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/demo/applets/WireFrame/Matrix3D.java.html#L223">223</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/demo/applets/WireFrame/ThreeD.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A65" href = "#A65">#A65</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/share/demo/applets/WireFrame/ThreeD.java.html#L333">333</a></td>
+								
+								
+									
+									<td class="keepWidth">36</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/windows/classes/java/lang/ProcessEnvironment.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A66" href = "#A66">#A66</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/windows/classes/java/lang/ProcessEnvironment.java.html#L243">243</a></td>
+								
+								
+									
+									<td class="keepWidth">20</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A67" href = "#A67">#A67</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/src/windows/classes/java/lang/ProcessEnvironment.java.html#L245">245</a></td>
+								
+								
+									
+									<td class="keepWidth">20</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/lang/Class/TypeCheckMicroBenchmark.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A68" href = "#A68">#A68</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/lang/Class/TypeCheckMicroBenchmark.java.html#L73">73</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/nio/Buffer/SwapMicroBenchmark.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A69" href = "#A69">#A69</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/nio/Buffer/SwapMicroBenchmark.java.html#L77">77</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/util/ArrayList/IteratorMicroBenchmark.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A70" href = "#A70">#A70</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/util/ArrayList/IteratorMicroBenchmark.java.html#L76">76</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/util/ArrayList/RangeCheckMicroBenchmark.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A71" href = "#A71">#A71</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/util/ArrayList/RangeCheckMicroBenchmark.java.html#L74">74</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/util/BitSet/PreviousBits.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A72" href = "#A72">#A72</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/util/BitSet/PreviousBits.java.html#L125">125</a></td>
+								
+								
+									
+									<td class="keepWidth">37</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/util/zip/DataDescriptor.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A73" href = "#A73">#A73</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/util/zip/DataDescriptor.java.html#L55">55</a></td>
+								
+								
+									
+									<td class="keepWidth">31</td>
+								
+							</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A74" href = "#A74">#A74</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/java/util/zip/DataDescriptor.java.html#L59">59</a></td>
+								
+								
+									
+									<td class="keepWidth">34</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/sun/nio/cs/StrCodingBenchmark.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A75" href = "#A75">#A75</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/sun/nio/cs/StrCodingBenchmark.java.html#L72">72</a></td>
+								
+								
+									
+									<td class="keepWidth">23</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/tools/pack200/pack200-verifier/src/xmlkit/ClassReader.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A76" href = "#A76">#A76</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/tools/pack200/pack200-verifier/src/xmlkit/ClassReader.java.html#L97">97</a></td>
+								
+								
+									
+									<td class="keepWidth">41</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+				<div class="section">
+					<h3>/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/tools/pack200/pack200-verifier/src/xmlkit/XMLKit.java</h3>
+					<tr class="b">
+					<table border="0" class="bodyTable">
+					        <th></th>
+							<th>Severity</th>
+							<th>Rule</th>
+							<th>Message</th>
+							<th>Line</th>
+							<th>Col</th>
+						</tr>
+						
+							
+								<tr class="b">
+								
+								<td class="keepWidth"><a name="A77" href = "#A77">#A77</a></td>
+								<td>warning</td>
+								<td>InnerAssignment</td>
+								<td>Inner assignments should be avoided.</td>
+								
+									
+									<td class="keepWidth"><a href = "xref/home/kaustubh/ck/contribution-master/checkstyle-tester/repositories/openjdk7/test/tools/pack200/pack200-verifier/src/xmlkit/XMLKit.java.html#L4237">4237</a></td>
+								
+								
+									
+									<td class="keepWidth">30</td>
+								
+							</tr>
+						
+					</table>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
